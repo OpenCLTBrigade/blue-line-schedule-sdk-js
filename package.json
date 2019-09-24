@@ -1,5 +1,5 @@
 {
-  "name": "blue-line-schedule-sdk-js",
+  "name": "lynx-blue-line-schedule-sdk",
   "version": "1.0.0",
   "description": "",
   "main": "./build/index.js",
