@@ -17,5 +17,5 @@ test('Gets first Saturday AM train if past last Friday night train', () => {
     new Date('2019-09-27 11:50 PM')
   );
   console.log(new Date('2019-09-27 11:50 PM'));
-  expect(result[0]).toBe('12:00 AM'); // Actually 12:20 AM
+  expect(result[0]).toBe('12:20 AM');
 });

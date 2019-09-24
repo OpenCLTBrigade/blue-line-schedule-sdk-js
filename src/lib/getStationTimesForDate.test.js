@@ -12,7 +12,7 @@ test('Retrieves I-485 Inbound Station Sunday times', () => {
     constants.DIRECTION_KEY_INBOUND,
     new Date('2019-09-22 13:00:00')
   );
-  expect(result[0]).toBe('12:00 AM'); // Actually 5:50 AM
+  expect(result[0]).toBe('5:50 AM');
 });
 
 test('Retrieves I-485 Inbound Saturday times', () => {
@@ -21,7 +21,7 @@ test('Retrieves I-485 Inbound Saturday times', () => {
     constants.DIRECTION_KEY_INBOUND,
     new Date('2019-09-28 13:00:00')
   );
-  expect(result[0]).toBe('12:00 AM'); // Actually 12:20 AM
+  expect(result[0]).toBe('12:20 AM');
 });
 
 test('Retrieves I-485 Inbound Weekday times', () => {
