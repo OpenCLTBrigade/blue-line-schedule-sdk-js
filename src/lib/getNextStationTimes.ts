@@ -23,7 +23,7 @@ const getNextStationTimes = (stationName: string, directionKey: string, date: Da
   const stationTimes = getStationTimesForDate(stationName, directionKey, date);
 
   if (stationTimes === null) {
-    return null;
+    return [];
   }
 
   const filteredStationTimes = filterStationTimes(stationTimes, date);
