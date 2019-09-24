@@ -6,18 +6,12 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "watch": "tsc -w",
-    "run": "node ./build/index.js",
-    "build:run": "yarn run build && yarn run run"
+    "run": "node ./build/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/ramda": "^0.26.22",
-    "lynx-schedule-json": "https://github.com/OpenCLTBrigade/blue-line-schedule-json",
-    "node-fetch": "^2.6.0",
-    "ramda": "^0.26.1",
-    "typescript": "^3.6.3"
+    "lynx-schedule-json": "https://github.com/OpenCLTBrigade/blue-line-schedule-json"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -25,6 +19,7 @@
     "@babel/preset-typescript": "^7.6.0",
     "@types/node": "^12.7.5",
     "babel-jest": "^24.9.0",
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "typescript": "^3.6.3"
   }
 }
