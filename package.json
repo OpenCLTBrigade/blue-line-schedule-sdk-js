@@ -1,14 +1,15 @@
 {
-  "name": "lynx-blue-line-schedule-sdk",
-  "version": "1.0.0",
+  "name": "@opencltbrigade/lynx-blue-line-schedule-sdk",
+  "version": "0.1.0",
   "description": "",
   "main": "./build/index.js",
+  "private": false,
   "scripts": {
     "test": "jest",
     "build": "tsc",
     "run": "node ./build/index.js"
   },
-  "author": "",
+  "author": "Open Charlotte Brigade",
   "license": "ISC",
   "dependencies": {
     "lynx-schedule-json": "https://github.com/OpenCLTBrigade/blue-line-schedule-json"
